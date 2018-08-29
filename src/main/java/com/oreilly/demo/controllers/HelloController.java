@@ -13,6 +13,6 @@ public class HelloController {
     @RequestParam(value = "name", required = false, defaultValue = "world") String name,
     Model model) {
     model.addAttribute("user", name);
-    return "Hello";
+    return "hello";
   }
 }

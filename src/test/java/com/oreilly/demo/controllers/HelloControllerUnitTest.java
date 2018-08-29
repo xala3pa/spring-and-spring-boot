@@ -18,6 +18,6 @@ public class HelloControllerUnitTest {
     String message = helloController.sayHello("World", model);
     //then
     assertEquals("World", model.asMap().get("user"));
-    assertEquals("Hello", message);
+    assertEquals("hello", message);
   }
 }
